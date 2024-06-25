@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  width: 100%;
+  border: 2px solid black;
+  text-align: center;
+  margin: 6px;
+  padding: 3px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: rgb(7, 215, 242);
+}
+
+.btn:hover:not([disabled]) {
+  background-color: blue;
+}
+.correctAnswer {
+  background-color: green;
+}
+.incorrect {
+  background-color: red;
+}
